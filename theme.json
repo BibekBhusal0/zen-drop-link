@@ -1,0 +1,21 @@
+{
+  "id": "zen-drop-link",
+  "name": "Zen Drop Link to Split",
+  "description": "This mod allows you to split tabs by drag and drop links",
+  "homepage": "https://github.com/octaviusz/zen-drop-link",
+  "readme": "https://raw.githubusercontent.com/octaviusz/zen-drop-link/refs/heads/main/README.md",
+  "image": "",
+  "style": "https://raw.githubusercontent.com/octaviusz/zen-groups/refs/heads/main/userChrome.css",
+  "js": "https://raw.githubusercontent.com/octaviusz/zen-groups/refs/heads/main/file.uc.js",
+  "preferences": "",
+  "author": "octaviusz",
+  "version": "0.0.1",
+  "tags": [
+    "sine",
+    "fx-autoconfig",
+    "split tabs"
+  ],
+  "createdAt": "2025-06-17",
+  "updatedAt": "2025-06-17",
+  "fork": ["zen"]
+}
