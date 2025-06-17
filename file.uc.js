@@ -300,3 +300,16 @@ class ZenSplitViewLinkDrop {
     this.#zenViewSplitter.splitTabs(tabsToSplit, gridType, initialIndex);
   }
 }
+
+(function () {
+  if (!globalThis.zenDropLinkInstance) {
+    window.addEventListener(
+      "load",
+      () => {
+        globalThis.zenDropLinkInstance = new ZenSplitViewLinkDrop();
+        globalThis.zenDropLinkInstance.init();
+      },
+      { once: true },
+    );
+  }
+})();
